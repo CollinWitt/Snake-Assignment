@@ -2,6 +2,7 @@
 Play snake in the console! (incomplete)
 
 Complete this project by finishing the to-do list then test out your new snake game!
+Use `pip install -r requirments.txt` to install the required libraries.
 
 
 ## TODO:
