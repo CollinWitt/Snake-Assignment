@@ -27,10 +27,11 @@ def tick():
     Display and deal with the different game states like winning and losing.
     """
 
-    # example usage of InputHandler and Image classes (remove when done)
+    # example usage of InputHandler
     lastKeyPressed = inputHandler.getLastKeyPress() # gets the last key pressed
+    # example usage of the Image class
     image = display.Image(11,11,".") # makes a 11x11 image of "."
-    image.set(3,4, "#") # sets the pixel (3,4) to "#"
+    image.set((3,4), "#") # sets the pixel (3,4) to "#"
     image.display() # prints the image
     image.fill("!") # fills the image with "!"
     image.display() # displays the new image
